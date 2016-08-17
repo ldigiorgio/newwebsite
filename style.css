@@ -1,0 +1,127 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1{
+  font-family: helvetica, sans-serif;
+  font-weight:bold;
+  position: fixed;
+  top: 0;
+  right: 0;
+  color: #696969;
+  font-size: 90px;
+  line-height: 1.5;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+
+h2{
+  font-family: helvetica, sans-serif;
+  font-weight:bold;
+  color: #696969;
+  font-size: 40px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  margin-bottom: 15px;
+  margin-left: 12px;
+}
+
+h3{
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  color: #696969;
+  font-size: 20px;
+  padding-top: 12px;
+  padding-left: 12px;
+  margin-top: 7px;
+  margin-left: 12px;
+  margin-bottom: 20px;
+}
+
+ul{
+  list-style: circle outside;
+  font-family: helvetica, sans-serif;
+  color: #696969;
+  font-size: 18px;
+  padding: 25px;
+  margin: 5px;
+}
+
+body{
+  background: repeat-x url('/Users/lianadigiorgio/Desktop/Web Development Course/projects/newwebsite/images/whitemarble.jpg');
+  margin-top: 450px;
+}
+
+footer{
+  font-family: helvetica, sans-serif;
+  font-size: 50px;
+  float: right;
+  padding-bottom: 50px;
+  padding-right: 30px;
+}
+
+  .treepose{
+    display: block;;
+    margin: 60px auto;
+    float: left;
+  }
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.headshot{
+  display: inline;
+  position: absolute;
+  top: 0;
+  left: 125px;
+}
